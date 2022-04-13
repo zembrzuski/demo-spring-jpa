@@ -25,6 +25,4 @@ public class FriendshipController {
         return linkUnlinkCommand.unlink(username1, username2);
     }
 
-    // TODO add controller advice to handle errors.
-
 }

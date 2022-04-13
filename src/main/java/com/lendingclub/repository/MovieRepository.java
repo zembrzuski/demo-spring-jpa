@@ -17,7 +17,6 @@ public interface MovieRepository extends PagingAndSortingRepository<Movie, Long>
 
     Optional<Movie> findByName(@Param("name") String name);
 
-    // test it using rest
     List<Movie> findByNameInOrderByName(@Param("movieNames") Collection<String> movieNames);
 
 }
